@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashPage">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="281dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/logo"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="393dp"
+        android:textSize="43dp"
+        android:textColor="#4F4F4F"
+        android:text="Costrade" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="294dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+        android:textAllCaps="false"
+        android:text="Masuk"
+        app:backgroundTint="#E91E63"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="294dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="520dp"
+        android:textAllCaps="false"
+        android:textColor="#4F4F4F"
+        android:text="Daftar"
+        app:backgroundTint="#FFFFFF" />
+
+
+</RelativeLayout>

@@ -1,0 +1,117 @@
+ <?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp">
+
+    <TextView
+        android:id="@+id/TextView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Unggah Foto"
+        android:textSize="18dp"
+        android:textColor="#424242"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"/>
+    
+    <EditText
+        android:id="@+id/Edittext"
+        android:layout_width="294dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/TextView5"
+        android:background="@drawable/kotak1"
+        android:hint="Nama"
+        android:paddingLeft="22dp"/>
+
+    <EditText
+        android:id="@+id/Edittext1"
+        android:layout_width="294dp"
+        android:layout_height="80dp"
+        android:hint="Alamat"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/Edittext"
+        android:background="@drawable/kotak1"
+        android:paddingLeft="22dp" />
+
+    <EditText
+        android:id="@+id/Edittext2"
+        android:layout_width="294dp"
+        android:layout_height="60dp"
+        android:hint="Telepon"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/Edittext1"
+        android:background="@drawable/kotak1"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="22dp"/>
+
+    <EditText
+        android:id="@+id/Edittextemail"
+        android:layout_width="294dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/Edittext2"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/kotak1"
+        android:layout_marginTop="10dp"
+        android:hint="Email"
+        android:paddingLeft="22dp" />
+
+    <EditText
+        android:id="@+id/Edittextpassword"
+        android:layout_width="294dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/Edittextemail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/kotak1"
+        android:hint="Password"
+        android:paddingLeft="22dp"/>
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="Dengan menyetujui, maka anda setuju dengan Persyaratan Layanan dan Kebijaksanaan Privasi"
+        android:layout_below="@+id/Edittextpassword"
+        android:textSize="10dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#4F4F4F"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="294dp"
+        android:layout_height="60dp"
+        android:text="Buat Akun"
+        android:textAllCaps="false"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/checkBox2"
+        android:backgroundTint="#E4094D"/>
+
+    <TextView
+        android:id="@+id/textview6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Punya Akun ?"
+        android:textSize="14dp"
+        android:layout_below="@id/button4"
+        android:layout_marginLeft="125dp"
+        android:textColor="#4F4F4F"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Masuk"
+        android:textSize="14dp"
+        android:layout_toRightOf="@id/textview6"
+        android:layout_alignTop="@id/textview6"
+        android:layout_marginLeft="15dp"
+        android:textColor="#E4094D"/>
+
+
+</RelativeLayout>
